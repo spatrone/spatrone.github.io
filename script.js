@@ -7,10 +7,6 @@
 // Inspired by Feynman diagrams: vertices (particles) connected by propagators (lines)
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Allow pointer events on particles canvas only in the hero area
-    var particlesEl = document.getElementById('particles-js');
-    particlesEl.style.pointerEvents = 'auto';
-
     if (typeof particlesJS !== 'undefined') {
         particlesJS('particles-js', {
             particles: {
