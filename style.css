@@ -985,6 +985,10 @@ footer p {
         margin: 0 auto;
     }
 
+    .about-photo-img {
+        min-height: 360px;
+    }
+
     .about-content p {
         font-size: 1rem;
     }
